@@ -15,6 +15,8 @@ pip install pulp
 python3 clipws.py
 ```
 
+Please keep all the 4 files: `input.txt`, `output.txt`, `crmcc`, `clipws.py` in the same folder and run the above command.
+
 ## Description
 We convert the cluster editing problem into an integer linear program (ILP) using [1]. We use an open source ILP solver CBC (https://github.com/coin-or/Cbc) to solve the ILP formed in the previous step. 
 
