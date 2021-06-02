@@ -1,4 +1,4 @@
-# CLIP: Cluster Editing PACE 2021 (Exact Track)
+# CLIPWS: Cluster Editing PACE 2021 (Exact Track)
 
 This repository contains an exact solution to the cluster editing problem.
 
