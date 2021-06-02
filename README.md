@@ -12,11 +12,11 @@ To run:
 
 ```
 pip install pulp
-python3 clip.py
+python3 clipws.py
 ```
 
 ## Description
-We convert the cluster editing problem into an integer linear program (ILP) using [1]. We use an open source ILP solver CBC (https://github.com/coin-or/Cbc) to solve the ILP formed in the previous step.  
+We convert the cluster editing problem into an integer linear program (ILP) using [1]. We use an open source ILP solver CBC (https://github.com/coin-or/Cbc) to solve the ILP formed in the previous step. Moreover, we provide an initial basic feasible solution through our heuristic CRMCC solver to warm start the CBC ILP solver.
 
 
 
